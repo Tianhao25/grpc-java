@@ -5,7 +5,10 @@ gRPC is really attractive to me when it was first introduced to me by Bittiger t
 
 ## Basics
 **Protocal Buffers**: https://developers.google.com/protocol-buffers/ Is a google based, lauguage neutral, service define protocal.  
-**Install Protocal Buffer on MacOS**: brew install protobuf  
+**Install Protocal Buffer on MacOS**: 
+```bash
+$ brew install protobuf  
+```
 > **Install Protocal Buffer gRPC-Java Plugin**:   
 > 1. git clone https://github.com/grpc/grpc-java.git
 > 2. Go to ./compliler folder  
