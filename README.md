@@ -26,3 +26,13 @@ $ brew install protobuf
 > 6. You will find a xxxGrpc file and other helper files generated there!
 
 
+## Kengs
+parseUnknownFieldProto3 can not found: Try to import this:
+```
+<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+<dependency>
+    <groupId>com.google.protobuf</groupId>
+    <artifactId>protobuf-java</artifactId>
+    <version>3.4.0</version>
+</dependency>
+```
