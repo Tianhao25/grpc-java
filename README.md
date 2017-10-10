@@ -19,6 +19,10 @@ $ brew install protobuf
 > $ protoc --plugin=protoc-gen-grpc-java=build/exe/java_plugin/protoc-gen-grpc-java \
 >  --grpc-java_out="$OUTPUT_FILE" --proto_path="$DIR_OF_PROTO_FILE" "$PROTO_FILE"
 > ```
-> 6. You will find a xxxGrpc file generated there!
+> Build gRPC independent java code:
+> ```bash
+protoc -I=$SRC_DIR --java_out=$DST_DIR $SRC_DIR/addressbook.proto
+> ```
+> 6. You will find a xxxGrpc file and other helper files generated there!
 
 
